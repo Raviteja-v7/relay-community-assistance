@@ -37,3 +37,7 @@ override.tf.json
 .DS_Store
 .idea/
 .vscode/
+
+
+# images
+images
