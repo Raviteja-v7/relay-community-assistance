@@ -1,0 +1,39 @@
+# JavaScript
+node_modules/
+frontend/dist/
+frontend/.vite/
+backend/.lambda-build/
+backend/relay_lambda.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform.tfvars
+*.auto.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
